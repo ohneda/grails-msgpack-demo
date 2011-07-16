@@ -1,6 +1,7 @@
 class UrlMappings {
 
 	static mappings = {
+        "/message/$id?"(resource:"message")
 		"/$controller/$action?/$id?"{
 			constraints {
 				// apply constraints here

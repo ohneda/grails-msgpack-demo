@@ -6,7 +6,6 @@ class Comment {
     String name
 
     static belongsTo = [message: Message]
-
     static constraints = {
     }
 

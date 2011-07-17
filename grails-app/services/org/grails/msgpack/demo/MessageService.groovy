@@ -2,10 +2,13 @@ package org.grails.msgpack.demo
 
 class MessageService {
 
+    static expose=['msgpack']
     static transactional = true
 
-    def get(Integer id) {
+    Message get(Long id) {
         assert id
-        Message.get(id)
+        def result = Message.get(id)
+        log.debug("get: ${res.dump()}")
+        result
     }
 }

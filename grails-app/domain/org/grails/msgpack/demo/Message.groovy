@@ -15,9 +15,8 @@ class Message {
     
     static hasMany = [comments: Comment]
     
-    
-    
     static constraints = {
         optional nullable: true
     }
+    static mapping = {comments lazy: false}
 }

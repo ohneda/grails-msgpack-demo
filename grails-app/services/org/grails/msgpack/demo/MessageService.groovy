@@ -8,7 +8,7 @@ class MessageService {
     Message get(Long id) {
         assert id
         def result = Message.get(id)
-        log.debug("get: ${res.dump()}")
+        log.debug("get: ${result.dump()}")
         result
     }
 }

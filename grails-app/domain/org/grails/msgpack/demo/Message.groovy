@@ -12,6 +12,7 @@ class Message {
     Float floatval
     Map<String, String> props
     Boolean isActive
+    List<Comment> comments
     
     static hasMany = [comments: Comment]
     

@@ -87,7 +87,7 @@ log4j = {
            'net.sf.ehcache.hibernate'
 
     warn   'org.mortbay.log'
-    debug  'org.grails.msgpack'
+    debug  'grails.app.controller', 'grails.app.service', 'grails.app.domain', 'org.grails.msgpack', 'org.grails.msgpack.demo'
 }
 
 msgpack {

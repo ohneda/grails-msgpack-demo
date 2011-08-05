@@ -10,9 +10,9 @@ Clone the application on your computer.
 
     git clone https://github.com/ohneda/grails-msgpack-demo
 
-Install the Grails MessagePack Plugin that is in the application directory.
+Install the Grails MessagePack Plugin like this:
 
-    grails install-plugin grails-messagepack-0.1.zip
+    grails install-plugin msgpack
 
 Edit your grails-app/config/Config.groovy if you would like to change the port number of MessagePack PPC.
 
